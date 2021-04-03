@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Site</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+         
+        <h2>Cadastre-se</h2>
+        <form>
+
+            Nome: <input type="text" name="nome"><br>
+
+            <br>Sexo:<br> 
+            <!--Com o name igual ao nome do atributo, a caixa de seleção não se repete-->
+            <!--Apenas uma opção obrigatoria-->
+            <input type="radio" name="Sexo" value="Masculino">Masculino<br>
+            <input type="radio" name="Sexo" value="Feminino">Feminino<br>
+            <input type="radio" name="Sexo" value="Outro" >Outro? 
+            <input type="text" name=""><br><br>
+
+            <!--Mais de uma opção livremente-->
+            <br>Interesses:<br>
+            <input type="checkbox" name="interesses"> Programação <br>
+            <input type="checkbox" name="interesses"> Culinária <br>
+            <input type="checkbox" name="interesses"> Esportes <br>
+
+            <br>Estado:             
+            <select id="UF" name="UF">
+                <option value="">Selecione</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+             </select> <br>
+
+            <br>Login: <input type="text" name="login"><br>
+
+            <br>Senha: <input type="password" name="senha"><br>
+
+             <br> Observações:<br>
+             <textarea></textarea><br>
+
+            <br><input type="submit" value="Cadastrar">
+
+        </form>
+
+        <br><a href="index.html">Clique aqui para voltar ao inicio</a>
+    </body>
+</html>
